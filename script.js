@@ -38,7 +38,7 @@ function floorCovers() {
     }
 }
 
-function furniture() {
+function let furniture = () => {
     let cost = parseFloat(prompt("Enter the cost of furniture."))
 
     if(cost>2000) {
